@@ -1,0 +1,88 @@
+
+
+
+#parent{
+    width: 30em;
+    box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: antiquewhite;
+    margin: 3px;
+padding: 10px;
+    
+}
+
+
+#form{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 30px;
+    padding:5%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    border: 2px dotted rosybrown;
+    
+ 
+}
+#input{
+    width: 300px;
+    font-family: 'Bauhaus 93';
+    font-size: large;
+   
+   
+   
+}
+#textToDo{
+    font-family: 'Bauhaus 93';
+    font-size: large;
+    
+}
+.griditem{
+    margin-bottom: 20px;
+    border-bottom: 1px solid brown;
+    padding: 3px;
+}
+.display{
+    width: -moz-fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    font-size: large;
+    
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 5%;
+    border: 1px solid burlywood;
+    
+   
+}
+#form button{
+    border-radius: 5px;
+    width: 80px;
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    
+}
+
+#edit
+{
+    border-radius: 5px;
+    width: 80px;
+    background-color:green;
+    color: white;
+    font-size: large;
+
+    
+}
+
+#delete
+{
+    border-radius: 5px;
+    width: 80px;
+    background-color:red;
+    color: white;
+    font-size: large;
+    margin-left: 5px;
+  
+}
+
